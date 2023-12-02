@@ -25,7 +25,7 @@ if(fecha=='martes','miercoles','jueves','viernes','sabado')
 console.log("DIAS NO DISPONIBLE")
 
 let tatuajes=parseInt
-(prompt("ingrese1 sin color, ingrese2 combinacion de 2 o mas sin color, ingrese3 con color, ingrese4 combinacion de 2 o mas con color, otro numero para salir"))
+(prompt("Ingrese1: SIN COLOR; / Ingrese2: COMBINACION DE DOS O MAS, SIN COLOR; / Ingrese3: CON COLOR; / Ingrese4: COMBINACION DE DOS O MAS CON COLORES; / OTRO NUMERO PARA SALIR"))
 switch (tatuajes)
 {case 1:console.log("SIN COLOR:")
 break
