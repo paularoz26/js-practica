@@ -1,39 +1,33 @@
 var variable
 
-constdatodelusuario=prompt ("Ingrese su NOMBRE y APELLIDO")
+constsudatos=prompt ("Ingrese su NOMBRE y APELLIDO")
 const Bienvenidoalapagina='BIENVENIDO A LA PAGINA'
-const frase='¡'+ Bienvenidoalapagina +' ' +'!'
-console.log(frase)
+const buendia='¡'+ Bienvenidoalapagina +' ' +'!' 
+console.log(buendia)
 const tienetatuaje='si'
 const edad=parseInt
 (prompt("Ingrese su edad:"))
 if(edad>=18){true
-    console.log("BUENISIMOO! podes tatuarte")}
-else{console.log("EY!! NO podes tatuarte")}
-const tatuaje=prompt("TIENES TATUAJES HECHOS!?")//si
-if(tienetatuaje==tatuaje){"Que modelo buscas!!?"}
-
-
-
-const fecha=prompt("Ingrese el DIA y HORARIO")
-if(fecha=='domingo')
-console.log("LOCAL CERRADO!!")
-else{console.log("LOCAL ABIERTO!!!")}
-if(fecha=='lunes=13;30hs','lunes=15:30hs', 'lunes=17:30hs', 'lunes=19:30hs')
-console.log("DIAS DISPONIBLE")
-if(fecha=='martes','miercoles','jueves','viernes','sabado')
-console.log("DIAS NO DISPONIBLE")
-
-let tatuajes=parseInt
-(prompt("Ingrese1: SIN COLOR; / Ingrese2: COMBINACION DE DOS O MAS, SIN COLOR; / Ingrese3: CON COLOR; / Ingrese4: COMBINACION DE DOS O MAS CON COLORES; / OTRO NUMERO PARA SALIR"))
-switch (tatuajes)
-{case 1:console.log("SIN COLOR:")
+alert("BUENISIMOO! podes tatuarte")}
+alert("EY!! NO podes tatuarte")
+const tatuaje=prompt("YA TE ATENDISTE EN ESTE LOCAL!?")//si
+{console.log("GRACIAS POR ELEGIRNOS!!")}
+const laprimeravez='no'
+alert("BIENVENIDO Al TATTOOROZ!!")//no
+if(tienetatuaje==tatuaje)
+alert("Que modelos buscas!!??")
+let modelos=parseInt
+(prompt("Ingrese1: GATOS; / Ingrese2: BRUJAS; / Ingrese3:FANTASMA; / Ingrese4:NAVIDEÑO; / Ingrese5:COMBINAR / OTRO NUMERO PARA CANCELAR"))
+switch (modelos)
+{case 1:console.log("TATTOO DE GATOS:")
 break
-case 2:console.log("COMBINACION DE 2 O MAS SIN COLOR:")
+case 2:console.log("TATTOO DE BRUJAS:")
 break
-case 3:console.log("CON COLOR:")
+case 3:console.log("TATTO DE FANTASMA:")
 break
-case 4:console.log("COMBINACION DE 2 O MAS CON COLORES")
+case 4:console.log("TATTOO NAVIDEÑO")
+break
+case 5:console.log("TATTOO COMBINADOS")
 break
 default:console.log("cancelar el pedido!!")
 break
@@ -41,20 +35,48 @@ break
 
 
 
-let resultadototal=
-prompt ("Desea combinar tatuajes? (si/no)")
-if (resultadototal=="si")
+const fecha=prompt("Ingrese el DIA")
+if(fecha=='domingo')
+alert("LOCAL CERRADO!!")
+else{console.log("LOCAL ABIERTO!!!")}
+console.log("DISPONIBLE")
+
+
+let tatuajes=parseInt
+(prompt("Ingrese1: SIN COLOR; / Ingrese2: COMBINACION DE DOS O MAS, SIN COLOR; / Ingrese3: CON COLOR; / Ingrese4: COMBINACION DE DOS O MAS COLORES; / OTRO NUMERO PARA SALIR"))
+switch (tatuajes)
+{case 1:console.log("TATTOO SIN COLOR:")
+break
+case 2:console.log("TATTOO COMBINADO DE 2 O MAS SIN COLOR:")
+break
+case 3:console.log("TATTOO CON COLOR:")
+break
+case 4:console.log("TATTOO COMBINADO DE 2 O MAS COLORES")
+break
+default:console.log("CANCELAR el PEDIDO!!")
+break
+}
+
+
+
+let recomendacion=
+prompt ("ES RECOMENDABLE NUESTRO SERVICIO?? (si/no)")
+if (recomendacion=="si")
 {continuar=false
-console.log("Genial")
+console.log("Genial RECOMIENDANOS!!!")
 
 }
+
+
+
+
 console.log ("PRECIO SIN COLOR")
 var precioTotal =8000;
 var cantidad = 1;
 var precioPorUnidad = precioTotal * cantidad;
 console.log("El precio por unidad es: " + precioPorUnidad);
 var precioTotal =8000;
-for (var i =1; i <= 1; i++) {
+for (var i =1; i <= 1; i++){
   var precioPorUnidad = precioTotal * i;
   console.log("El precio por unidad de " + i + " unidades es: " + precioPorUnidad);
 
@@ -95,8 +117,9 @@ for (var i =2; i <= 10; i++) {
   console.log("El precio por unidad de " + i + " unidades es: " + precioPorUnidad);
 
 }
-
-
-
+constgracias=prompt ("INGRESE EL PUNTAJE DE NUESTRO SERVICIO")
+const GRACIASPORVISITARNOS='GRACIAS POR VISITARNOS'
+const graciass='¡'+ GRACIASPORVISITARNOS +' ' +'!' 
+console.log(graciass)
 
 
