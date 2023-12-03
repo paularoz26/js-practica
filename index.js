@@ -67,9 +67,6 @@ console.log("Genial RECOMIENDANOS!!!")
 
 }
 
-
-
-
 console.log ("PRECIO SIN COLOR")
 var precioTotal =8000;
 var cantidad = 1;
@@ -78,7 +75,7 @@ console.log("El precio por unidad es: " + precioPorUnidad);
 var precioTotal =8000;
 for (var i =1; i <= 1; i++){
   var precioPorUnidad = precioTotal * i;
-  console.log("El precio por unidad de " + i + " unidades es: " + precioPorUnidad);
+  console.log("El precio por unidad de " + i + " el total es: " + precioPorUnidad);
 
 }
 
@@ -91,7 +88,7 @@ console.log("El precio por unidad es: " + precioPorUnidad);
 var precioTotal =16000;
 for (var i =2; i <= 10; i++) {
   var precioPorUnidad = precioTotal * i;
-  console.log("El precio por unidad de " + i + " unidades es: " + precioPorUnidad);
+  console.log("El precio por unidad de " + i + " el total es: " + precioPorUnidad);
 
 }
 console.log ("PRECIO CON COLOR")
@@ -102,7 +99,7 @@ console.log("El precio por unidad es: " + precioPorUnidad);
 var precioTotal =10000;
 for (var i =1; i <=1; i++) {
   var precioPorUnidad = precioTotal * i;
-  console.log("El precio por unidad de " + i + " unidades es: " + precioPorUnidad);
+  console.log("El precio por unidad de " + i + " el total es: " + precioPorUnidad);
 
 }
 
@@ -114,7 +111,7 @@ console.log("El precio por unidad es: " + precioPorUnidad);
 var precioTotal =12000;
 for (var i =2; i <= 10; i++) {
   var precioPorUnidad = precioTotal * i;
-  console.log("El precio por unidad de " + i + " unidades es: " + precioPorUnidad);
+  console.log("El precio por unidad de " + i + "el total es: " + precioPorUnidad);
 
 }
 constgracias=prompt ("INGRESE EL PUNTAJE DE NUESTRO SERVICIO")
