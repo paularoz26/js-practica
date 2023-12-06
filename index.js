@@ -1,12 +1,15 @@
 var variable
+let nombre=prompt ("Ingrese su NOMBRE y APELLIDO por favor")
+if(nombre==""){
+  alert(" No ingresaste tu nombre y apellido")}
+else{
+  alert(" Bienvenido a la pagina "  + ' ' +  nombre)
+}
 
-constsudatos=prompt ("Ingrese su NOMBRE y APELLIDO")
-const Bienvenidoalapagina='BIENVENIDO A LA PAGINA'
-const buendia='¡'+ Bienvenidoalapagina +' ' +'!' 
-console.log(buendia)
+
 const tienetatuaje='si'
 const edad=parseInt
-(prompt("Ingrese su edad:"))
+(prompt("Ingrese su edad por favor:"))
 if(edad>=18){true
 alert("BUENISIMOO! podes tatuarte")}
 alert("EY!! NO podes tatuarte")
@@ -17,7 +20,7 @@ alert("BIENVENIDO Al TATTOOROZ!!")//no
 if(tienetatuaje==tatuaje)
 alert("Que modelos buscas!!??")
 let modelos=parseInt
-(prompt("Ingrese1: GATOS; / Ingrese2: BRUJAS; / Ingrese3:FANTASMA; / Ingrese4:NAVIDEÑO; / Ingrese5:COMBINAR / OTRO NUMERO PARA CANCELAR"))
+(prompt("1- GATOS; / 2- BRUJAS; / 3- FANTASMA; / 4- NAVIDEÑO; / 5- COMBINAR / OTRO NUMERO PARA CANCELAR"))
 switch (modelos)
 {case 1:console.log("TATTOO DE GATOS:")
 break
@@ -43,7 +46,7 @@ console.log("DISPONIBLE")
 
 
 let tatuajes=parseInt
-(prompt("Ingrese1: SIN COLOR; / Ingrese2: COMBINACION DE DOS O MAS, SIN COLOR; / Ingrese3: CON COLOR; / Ingrese4: COMBINACION DE DOS O MAS COLORES; / OTRO NUMERO PARA SALIR"))
+(prompt("1: SIN COLOR; / 2: COMBINACION DE DOS O MAS, SIN COLOR; / 3: CON COLOR; / 4: COMBINACION DE DOS O MAS COLORES; / OTRO NUMERO PARA SALIR"))
 switch (tatuajes)
 {case 1:console.log("TATTOO SIN COLOR:")
 break
