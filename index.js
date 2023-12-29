@@ -1,8 +1,8 @@
-let nombre=prompt ("Ingrese su NOMBRE y APELLIDO por favor")
-if(nombre==""){
+let nombreCliente=prompt ("Ingrese su NOMBRE y APELLIDO por favor")
+if(nombreCliente==""){
   alert(" No ingresaste tu nombre y apellido")}
 else{
-  alert(" Bienvenido a la pagina "  + ' ' +  nombre)
+  alert(" Bienvenido a la pagina "  + ' ' +  nombreCliente)
 }
 console.log("BIENVENIDO A LA PAGINA!! HOY TENEMOS SUPER PROMOS....")
 
@@ -16,7 +16,7 @@ alert("EY!! NO podes tatuarte")
 
 alert("NUESTROS TATUADORES")
 console.log("NUESTROS TATUADORES PROFESIONALES EN EL LOCAL Y EN A DOMICILIO")
-function tatuadores(tatuador,edad,localidad,experiencia,adomicilio,montoadomicilio) {
+function tatuadorProfesional(tatuador,edad,localidad,experiencia,adomicilio,montoadomicilio) {
   this.tatuador =tatuador;
   this.edad=edad;
   this.localidad=localidad;
@@ -26,25 +26,25 @@ function tatuadores(tatuador,edad,localidad,experiencia,adomicilio,montoadomicil
   this.saludar=function(){console.log("MUY BUENOS DIAS!!! Te saluda" + " " + this.tatuador)}
   }
   
-   const tatuador1= new tatuadores(" juan Manuel Perez"," 38 años", "Almagro","8 años", "si,tatuador a domicilio", "+$4000")
-   console.log("TATUADOR PROFESIONAL",tatuador1)
-  tatuador1.saludar();
+   const tatuadorProfesional1= new tatuadorProfesional(" juan Manuel Perez"," 38 años", "Almagro","8 años", "si,tatuador a domicilio", "+$4000")
+   console.log("TATUADOR PROFESIONAL",tatuadorProfesional1)
+  tatuadorProfesional1.saludar();
 
-   const tatuador2= new tatuadores("Adrian Andres Tauro", "28 años", "Palermo","5 años", "si, tatuador a domicilio", "+$4000")
-  console.log("TATUADOR PROFESIONAL", tatuador2)
-tatuador2.saludar();
+   const tatuadorProfesional2= new tatuadorProfesional("Adrian Andres Tauro", "28 años", "Palermo","5 años", "si, tatuador a domicilio", "+$4000")
+  console.log("TATUADOR PROFESIONAL", tatuadorProfesional2)
+tatuadorProfesional2.saludar();
 
-  const tatuadora3=new tatuadores("Ana Maria Soto", "40 años", "Flores","10 años", "tatuadora en el local")
-  console.log("TATUADORA PROFESIONAL", tatuadora3)
-tatuadora3.saludar();
+  const tatuadoraProfesional3=new tatuadorProfesional("Ana Maria Soto", "40 años", "Flores","10 años", "tatuadora en el local")
+  console.log("TATUADORA PROFESIONAL", tatuadoraProfesional3)
+tatuadoraProfesional3.saludar();
 
-  const tatuadora4=new tatuadores("Sabrina Jazmin Pericoppi", "38 años","Flores","4 años", "trabaja en el local")
-  console.log ("TATUADORA PROFESIONAL", tatuadora4)
-tatuadora4.saludar();
+  const tatuadoraProfesional4=new tatuadorProfesional("Sabrina Jazmin Pericoppi", "38 años","Flores","4 años", "trabaja en el local")
+  console.log ("TATUADORA PROFESIONAL", tatuadoraProfesional4)
+tatuadoraProfesional4.saludar();
 
-  const tatuador5=new tatuadores("Martin Ezequiel Pericoppi", "42 años","Flores","12 años", "trabaja en el local")
-  console.log ("TATUADOR PROFESIONAL", tatuador5)
- tatuador5.saludar();
+  const tatuadorProfesional5=new tatuadorProfesional("Martin Ezequiel Pericoppi", "42 años","Flores","12 años", "trabaja en el local")
+  console.log ("TATUADOR PROFESIONAL", tatuadorProfesional5)
+ tatuadorProfesional5.saludar();
 
 
 const tatuaje=prompt("YA TE ATENDISTE EN ESTE LOCAL!?")//si
@@ -74,8 +74,8 @@ break
 
 
 
-const fecha=prompt("Ingrese el DIA")
-if(fecha=='domingo')
+const fechaCita=prompt("Ingrese el DIA")
+if(fechaCita=='domingo')
 alert("LOCAL CERRADO!!")
 else{console.log("LOCAL ABIERTO!!!")}
 console.log("DISPONIBLE")
@@ -100,50 +100,50 @@ break
 
 
 console.log ("PRECIO SIN COLOR")
-var precioTotal =8000;
-var cantidad = 1;
-var precioPorUnidad = precioTotal * cantidad;
-console.log("El precio por unidad es: " + precioPorUnidad);
-var precioTotal =8000;
-for (var i =1; i <= 1; i++){
-  var precioPorUnidad = precioTotal * i;
-  console.log("El precio por unidad de " + i + " el total es: " + precioPorUnidad);
+let precioTotallTatuajeSinColor =8000;
+const cantidaddTatuajes = 1;
+let precioTatuajePorUnidadd = precioTotallTatuajeSinColor * cantidaddTatuajes;
+console.log("El precio por unidad es: " + precioTatuajePorUnidadd);
+precioTotallTatuajeSinColor= 8000;
+for (let i =1; i <= 1; i++){
+ const precioTatuajePorUnidad = precioTotallTatuajeSinColor * i;
+  console.log("El precio por unidad de " + i + " el total es: " + precioTatuajePorUnidad);
 
 }
 
 
 console.log ("PRECIO DE COMBINACION DE TATUAJES SIN COLOR")
-var precioTotal =8000;
-var cantidad = 1;
-var precioPorUnidad = precioTotal * cantidad;
-console.log("El precio por unidad es: " + precioPorUnidad);
-var precioTotal =16000;
+let precioTotalTatuaje =8000;
+const cantidadTatuajes = 1;
+let precioTatuajePorUnidad = precioTotalTatuaje * cantidadTatuajes;
+console.log("El precio por unidad es: " + precioTatuajePorUnidad);
+ precioTotalTatuaje =16000;
 for (var i =2; i <= 10; i++) {
-  var precioPorUnidad = precioTotal * i;
-  console.log("El precio por unidad de " + i + " el total es: " + precioPorUnidad);
+const precioTatuajePorUnidad = precioTotalTatuaje * i;
+  console.log("El precio por unidad de " + i + " el total es: " + precioTatuajePorUnidad);
 
 }
 console.log ("PRECIO CON COLOR")
-var precioTotal =10000;
-var cantidad = 1;
-var precioPorUnidad = precioTotal * cantidad;
-console.log("El precio por unidad es: " + precioPorUnidad);
-var precioTotal =10000;
+let precioTotaalTatuajeConColor =10000;
+const cantidaadTatuajes = 1;
+let precioPorUnidaad = precioTotaalTatuajeConColor * cantidaadTatuajes;
+console.log("El precio por unidad es: " + precioTotalTatuaje);
+ precioTotaalTatuajeConColor=10000;
 for (var i =1; i <=1; i++) {
-  var precioPorUnidad = precioTotal * i;
-  console.log("El precio por unidad de " + i + " el total es: " + precioPorUnidad);
+ const precioTatuajePorUnidad = precioTotaalTatuajeConColor * i;
+  console.log("El precio por unidad de " + i + " el total es: " + precioTatuajePorUnidad);
 
 }
 
 console.log ("PRECIO DE 2 COLORES O MAS")
-var precioTotal =12000;
-var cantidad = 1;
-var precioPorUnidad = precioTotal * cantidad;
-console.log("El precio por unidad es: " + precioPorUnidad);
-var precioTotal =12000;
+let preecioTotalTatuaje =12000;
+const caantidadTatuajes = 1;
+let preecioTatuajePorUnidad = preecioTotalTatuaje * caantidadTatuajes;
+console.log("El precio por unidad es: " + preecioTotalTatuaje);
+ preecioTotalTatuajeMasColores =12000;
 for (var i =2; i <= 10; i++) {
-  var precioPorUnidad = precioTotal * i;
-  console.log("El precio por unidad de " + i + "el total es: " + precioPorUnidad);
+const precioTatuajePorUnidad = preecioTotalTatuajeMasColores * i;
+  console.log("El precio por unidad de " + i + "el total es: " + precioTatuajePorUnidad);
 
 }
 alert("SUPER PROMO NAVIDEÑO")
@@ -151,60 +151,60 @@ alert("SUPER PROMO NAVIDEÑO")
 console.log("PROMO NAVIDEÑO")
 
 console.log("TATUADORES/PERFORADORES")
-const perforadores=["Juaquin Ayala Benitez","Juan Manuel Perez","Marcela Alejandra Alvarez"]
-const joinString=perforadores.join()
-console.log("PERFORADORES PROFESIONALES",perforadores)
+const perforadoresProfesionales=["Juaquin Ayala Benitez","Juan Manuel Perez","Marcela Alejandra Alvarez"]
+const joinString=perforadoresProfesionales.join()
+console.log("PERFORADORES PROFESIONALES",perforadoresProfesionales)
 console.log("MONTO ADOMICILIO ES + $4000")
 
-const perforador1={
+const perforadorProfesional1={
   nombre:"Juaquin Ayala",
   apellido:"Benitez"
 }
 
-const perforadora2={
+const perforadoraProfesional2={
   nombre:"Marcela Alejandra",
   apellido:"Alvarez"
 }
 
-const perforador3={
+const perforadorProfesional3={
   nombre:"Juan Manuel",
   apellido:"Perez"
 }
 
-const adomicilioo=[perforadora2,perforador3]
+const perforadoresADomicilio=[perforadoraProfesional2,perforadorProfesional3]
 console.log("perforadores a domicilio")
-for(let i=0; i <  adomicilioo.length; i++){
-  console.log(adomicilioo[i])
+for(let i=0; i <  perforadoresADomicilio.length; i++){
+  console.log(perforadoresADomicilio[i])
 }
 
 
-const horario={
+const horarioAtencionDomiciliario0={
     dia:"Lunes",
     horario:"14 a 18hs"
     
   }
   
-  const horario1={
+  const horarioAtencionDomiciliaria1={
     dia:"Martes",
     horario:"15 a 18hs"
   }
   
-  const horario2={
+  const horarioAtencionDomiciliaria2={
     dia:"Miercoles",
     horario:"15 a 17hs"
   }
 
-  const horario3={
+  const horarioAtencionDomiciliaria3={
     dia:"Jueves",
     horario:"no disponible"
   }
 
-  const horario4={
+  const horarioAtencionDomiciliaria4={
     dia:"Viernes",
     horario:"no disponible"
   }
 
-const horarios=[horario, horario1, horario2, horario3, horario4 ]
+const horarios=[horarioAtencionDomiciliario0, horarioAtencionDomiciliaria1, horarioAtencionDomiciliaria2, horarioAtencionDomiciliaria3, horarioAtencionDomiciliaria4];
 console.log("HORARIO DISPONIBLE A DOMICILIO")
 for(let i=0; i<horarios.length;i++){
   console.log(horarios[i])
@@ -213,13 +213,13 @@ for(let i=0; i<horarios.length;i++){
 
 alert("TENES TIEMPO HASTA EL 22/01/2024")
 
-const finalizacioon=new Date ("2024, january, 22")
-const hoy=new Date("2023, december, 20");
-const finalizacioon1=(finalizacioon.getTime()-new Date().getTime())
-console.log("FECHA DE FINALIZACION DE PROMO",finalizacioon)
+const fechaFinPromocion=new Date ("2024, january, 22")
+const fechaActual=new Date("2023, december, 29");
+const tiempoRestantePromocion=(fechaFinPromocion.getTime()-new Date().getTime())
+console.log("FECHA DE FINALIZACION DE PROMO",fechaFinPromocion)
 
 console.log(" ¡¡LAS PROMOS!! ")
-const promo=[
+const promocionTatuaje=[
   {numero:1,
     promos:"Un tattoo sin color" + " "+ "y un piercing",
 precio:12000},
@@ -243,7 +243,7 @@ precio:25000
 },]
 
 
-promo.forEach((promo)=>{
+promocionTatuaje.forEach((promo)=>{
   console.log(promo)
   console.log(promo.promos+ ":precio$"+ promo.precio)
 })
@@ -261,14 +261,14 @@ const finalizacion=new Date("enero 22, 2024")
 let recomendacion=
 prompt ("ES RECOMENDABLE NUESTRO SERVICIO?? (si/no)")
 if (recomendacion=="si")
-{continuar=false
+{continuarAtencion=false
 console.log("Genial RECOMIENDANOS!!!")
 
 }
 
 
 
-constgracias=prompt ("INGRESE EL PUNTAJE DE NUESTRO SERVICIO")
+const puntuacionCliente=prompt ("INGRESE EL PUNTAJE DE NUESTRO SERVICIO")
 const GRACIASPORVISITARNOS='GRACIAS POR VISITARNOS'
 const graciass='¡'+ GRACIASPORVISITARNOS +' ' +'!' 
 console.log(graciass)
